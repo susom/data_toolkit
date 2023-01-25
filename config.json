@@ -1,0 +1,71 @@
+{
+    "name": "Data Toolkit",
+
+    "namespace": "Stanford\\DataToolkit",
+
+    "description": "A toolkit for helping with complex project and data manipulations in REDCap",
+
+    "documentation": "README.md",
+
+    "framework-version": 12,
+
+    "authors": [
+        {
+            "name": "Andrew Martin",
+            "email": "andy123@stanford.edu",
+            "institution": "Stanford"
+        }
+    ],
+
+    "permissions": [
+
+    ],
+
+    "enable-every-page-hooks-on-system-pages": false,
+
+    "enable-ajax-logging": false,
+
+    "auth-ajax-actions": [
+        "TestAction"
+    ],
+
+    "no-auth-ajax-actions": [
+        "TestAction"
+    ],
+
+    "links": {
+        "project": [
+            {
+                "name": "Data Toolkit",
+                "icon": "fas fa-cog",
+                "url": "pages/toolkit.php"
+            }
+        ],
+        "control-center": [
+
+        ]
+    },
+
+    "no-auth-pages": [
+
+    ],
+
+    "project-settings": [
+
+    ],
+
+    "system-settings": [
+
+    ],
+
+    "crons": [
+
+    ],
+
+    "compatibility": {
+        "php-version-min": "",
+        "php-version-max": "",
+        "redcap-version-min": "",
+        "redcap-version-max": ""
+    }
+}
